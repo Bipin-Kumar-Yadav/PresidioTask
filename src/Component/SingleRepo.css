@@ -1,0 +1,177 @@
+.top-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid rgb(119, 114, 114);
+    padding: 2% 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+.right{
+    width:80%;
+}
+.left{
+    width: 10%;
+    text-align: center;
+}
+p{
+    margin:1%;
+}
+.name{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2%;
+    color : rgb(153, 151, 151);
+}
+.oth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    gap: 2% ;
+}
+.oth p{
+    margin: 0 5px;
+}
+.obox{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+.oth p{
+    color:gray;
+}
+.oth span{
+    color : gray;
+}
+.obox p{
+    color: gray;
+    padding-bottom : 3px;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.star-cont svg{
+    font-size: 20px;
+    color: gray;
+}
+.star-cont p{
+    color: gray;
+}
+.link_container{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+}
+.topbar svg{
+    padding-top: 1%;
+    visibility: visible;
+    font-size: 20px;
+    color : white;
+}
+.topbar p{
+    font-size : 20px;
+    color: blue;
+    font-weight: bold;
+}
+.star-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.star-cont svg{
+    vertical-align: center;
+}
+.star{
+    
+    background-color: #21272C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+.star p{
+    color: white;
+    font-size: 16px;
+    padding: 3% 3%;
+}
+.star svg{
+    color: white;
+    font-size: 20px;
+    padding: 3% 3%;
+}
+@media (max-width:767px) {
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .oth{
+        flex-direction: column;
+    }
+    .oth p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .star-cont{
+        margin-top: 5px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .star-cont p {
+        font-size: 14px;
+    }
+    .star svg{
+        font-size: 16px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .star p{
+        font-size: 16px;
+        padding-top: 2px;
+        padding-bottom: 4px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .star{
+        gap: -5px;
+        margin-top: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+    .topbar p{
+        font-size: 16px;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .topbar{
+        flex-wrap: nowrap;
+    }
+    .topbar svg{
+        display: none;
+    }
+}

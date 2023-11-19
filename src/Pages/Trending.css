@@ -1,0 +1,12 @@
+.pop_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.not_found{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
